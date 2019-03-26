@@ -1,0 +1,426 @@
+body {
+    margin: 0;
+}
+
+#navigation {
+    background-color: #28292c;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 38vw;
+    margin-left: 2vw;
+}
+
+.burgermenu img {
+    width: 10vw;
+    margin-top: 2vh;
+    margin-right: 2vw;
+}
+
+.kampagner {
+    background-color: #373d46;
+    height: 10vh;
+    width: 100vw;
+}
+
+.kampagner p {
+    margin-right: 5vw;
+}
+
+
+h1 {
+    font-family: 'Slabo 27px', Helvetica, Arial, serif;
+}
+
+p {
+    font-family: 'Slabo 27px', Helvetica, Arial, serif;
+}
+
+.container {
+    padding: 5vw 5vw;
+}
+
+.film {
+    background-color: #eaeaea;
+}
+
+.film video {
+    width: 90vw;
+}
+
+.socialmedia img {
+    width: 23%;
+    margin: 5vw 0 0 0;
+    margin-left: 75vw;
+}
+
+.konkurrence {
+    background-color: #414b5a;
+    color: white;
+}
+
+.socialmedia-blue img {
+    width: 23%;
+    margin: 5vw 0 0 0;
+    margin-left: 70vw;
+}
+
+.selfie {
+    text-align: center;
+}
+
+.selfie img {
+    width: 80vw;
+}
+
+.konkurrence p {
+    font-family: sans-serif;
+}
+
+.advisetekst p {
+    font-family: sans-serif;
+}
+
+.portrait {
+    text-align: center;
+}
+
+.portrait img {
+    width: 80vw;
+}
+
+.graf {
+    background-color: #414b5a;
+    color: white;
+}
+
+.graf1 p {
+    font-family: sans-serif;
+}
+
+.graf2 p {
+    font-family: sans-serif;
+}
+
+.se_video {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.se_video img {
+    position: relative;
+    width: 30vh;
+
+}
+
+
+footer {
+    background-color: #28292c;
+    height: auto;
+    width: auto;
+    color: #9ea1a5;
+    padding: 5vw 5vw;
+}
+
+footer img {
+    width: 50vw;
+}
+
+.videos {
+    text-align: center;
+
+}
+
+video {
+    width: 100vw;
+}
+
+#videohtml {
+    background-color: #373d46;
+}
+
+#videohtml h1 {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 5vh;
+}
+
+.tilbage_knap {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+
+.tilbage_knap img {
+    width: 30vh;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .menu {
+        display: none;
+    }
+
+    .kampagner {
+        display: none;
+    }
+
+    .splash img {
+        display: none;
+    }
+
+    .tekstboks img {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .menu {
+        display: none;
+    }
+
+    .kampagner {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+    .logo img {
+        width: 37%;
+        margin-left: 2vw;
+    }
+
+    .burgermenu img {
+        width: 5.5vw;
+        margin-top: 1vh;
+        margin-right: 1vw;
+    }
+
+    .splash img {
+        width: 100vw;
+        position: absolute;
+    }
+
+    .tekstboks img {
+        position: relative;
+        margin-top: 15.3vh;
+        width: 30%;
+    }
+
+
+    .socialmedia img {
+        width: 13%;
+        margin-left: 80vw;
+    }
+
+    .socialmedia-blue img {
+        width: 13%;
+        margin-left: 75vw;
+    }
+
+    .film video {
+        width: 70vw;
+    }
+
+    .picandtext {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .konkurrencetekst {
+        margin: 0vw 5vw 5vw 0vw;
+    }
+
+    .selfie img {
+        width: 40vw;
+    }
+
+    .advisetekst {
+        margin: 0vw 5vw 5vw 0vw;
+    }
+
+    .portrait img {
+        width: 30vw;
+        margin: 0vw 0vw 5vw 0vw;
+    }
+
+
+    .grafogtekst {
+        display: flex;
+        justify-content: center;
+        margin: 0vw 0vw 5vw 0vw;
+    }
+
+    .graf1 {
+        margin: 0vw 5vw 0vw 0vw;
+        text-align: center;
+    }
+
+    .graf2 {
+        margin: 0vw 0vw 0vw 5vw;
+        text-align: center;
+    }
+
+    footer img {
+        width: 15vw;
+    }
+
+    #videohtml h1 {
+        margin-bottom: 5vh;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .logo img {
+        width: 37%;
+        margin-left: 10vw;
+    }
+
+    .burgermenu img {
+        display: none;
+    }
+
+    .menu img {
+        width: 55vw;
+        margin-right: 10vw;
+        margin-top: 2vh;
+    }
+
+    .socialmedia img {
+        width: 8%;
+        margin-left: 85vw;
+    }
+
+    .kampagner img {
+        width: 8vw;
+        margin-left: 10vw;
+        margin-top: 3vh;
+    }
+
+    .splash img {
+        width: 100vw;
+        position: absolute;
+    }
+
+    .tekstboks img {
+        position: relative;
+        margin-top: 52.7vh;
+        width: 30%;
+    }
+
+    .socialmedia-blue img {
+        width: 10%;
+        margin-left: 70vw;
+    }
+
+    .selfie img {
+        width: 30vw;
+        margin: 0vw 0vw 0vw 0vw;
+    }
+
+    .tekst {
+        padding: 0vw 15vw 2vw 15vw;
+    }
+
+    .tekst p {
+        font-size: 1.5rem;
+    }
+
+    .film {
+        padding: 2vw 15vw 2vw 15vw;
+    }
+
+    .film video {
+        width: 50vw;
+    }
+
+
+    .konkurrence {
+        padding: 2vw 15vw 2vw 15vw;
+    }
+
+    .picandtext {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .konkurrencetekst {
+        margin: 0vw 10vw 5vw 0vw;
+    }
+
+    .portrait img {
+        width: 20vw;
+        margin: 0vw 0vw 5vw 0vw;
+    }
+
+    .advise {
+        padding: 2vw 15vw 2vw 15vw;
+    }
+
+    .advisetekst {
+        margin: 0vw 10vw 10vw 0vw;
+    }
+
+    .graf {
+        padding: 2vw 15vw 2vw 15vw;
+    }
+
+    .grafogtekst {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0vw 0vw 5vw 0vw;
+    }
+
+    .graf1 {
+        margin: 0vw 5vw 0vw 0vw;
+        text-align: center;
+        flex-grow: 1;
+        flex-basis: 400px;
+    }
+
+    .graf2 {
+        margin: 0vw 0vw 0vw 5vw;
+        text-align: center;
+        flex-grow: 1;
+        flex-basis: 300px;
+    }
+
+    .datavisualisering {
+        padding: 2vw 15vw 2vw 15vw;
+    }
+
+    footer {
+        padding: 2vw 15vw 2vw 15vw;
+    }
+
+    footer img {
+        width: 15vw;
+    }
+
+    .bund {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+
+
+
+}
